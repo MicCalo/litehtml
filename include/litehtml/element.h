@@ -4,9 +4,9 @@
 #include <memory>
 #include <tuple>
 #include <list>
+#include <functional>
+
 #include "stylesheet.h"
-#include "css_offsets.h"
-#include "css_margins.h"
 #include "css_properties.h"
 
 namespace litehtml

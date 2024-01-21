@@ -1,6 +1,13 @@
 #ifndef LH_STYLE_H
 #define LH_STYLE_H
 
+#include "types.h"
+#include "css_length.h"
+#include "css_position.h"
+#include "web_color.h"
+#include "string_id.h"
+#include "background.h"
+
 namespace litehtml
 {
 	enum property_type

@@ -1,7 +1,8 @@
 #ifndef LH_DOCUMENT_H
 #define LH_DOCUMENT_H
 
-#include "style.h"
+#include "element.h"
+#include "stylesheet.h"
 #include "types.h"
 #include "master_css.h"
 
@@ -65,7 +66,7 @@ namespace litehtml
 		litehtml::size						m_content_size;
 		position::vector					m_fixed_boxes;
 		media_query_list::vector			m_media_lists;
-		element::ptr						m_over_element;
+        element::ptr						m_over_element;
 		std::list<std::shared_ptr<render_item>>		m_tabular_elements;
 		media_features						m_media;
 		string								m_lang;

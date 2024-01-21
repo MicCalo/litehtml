@@ -1,7 +1,8 @@
 #ifndef LH_TYPES_H
 #define LH_TYPES_H
 
-#include <cstdlib>
+#include "os_types.h"
+
 #include <memory>
 #include <map>
 #include <vector>
